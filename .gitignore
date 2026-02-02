@@ -1,0 +1,18 @@
+# Sensitive files
+auth.json
+
+# Session data (local only)
+sessions/
+
+# Logs and crash reports
+*.log
+pi-crash.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*~

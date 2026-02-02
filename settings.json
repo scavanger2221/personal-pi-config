@@ -1,0 +1,23 @@
+{
+  "lastChangelogVersion": "0.51.0",
+  "defaultProvider": "kimi-coding",
+  "defaultModel": "k2p5",
+  "hideThinkingBlock": false,
+  "theme": "modern-blue",
+  "extensions": [
+    "~/.pi/agent/extensions/natural-cli.ts",
+    "~/.pi/agent/extensions/borderless-editor.ts"
+  ],
+  "enabledModels": [
+    "google-antigravity/claude-opus-4-5-thinking",
+    "google-antigravity/gemini-3-flash",
+    "kimi-coding/k2p5",
+    "opencode/kimi-k2.5-free",
+    "opencode/minimax-m2.1-free",
+    "zai/glm-4.7-flash",
+    "zai/glm-4.7",
+    "zai/glm-4.6v"
+  ],
+  "defaultThinkingLevel": "medium",
+  "steeringMode": "one-at-a-time"
+}
