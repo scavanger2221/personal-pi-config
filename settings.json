@@ -1,23 +1,45 @@
 {
   "lastChangelogVersion": "0.51.0",
-  "defaultProvider": "kimi-coding",
-  "defaultModel": "k2p5",
+  "defaultProvider": "opencode",
+  "defaultModel": "minimax-m2.1-free",
+  "defaultThinkingLevel": "medium",
   "hideThinkingBlock": false,
+  "steeringMode": "one-at-a-time",
+  "followUpMode": "one-at-a-time",
   "theme": "modern-blue",
-  "extensions": [
-    "~/.pi/agent/extensions/natural-cli.ts",
-    "~/.pi/agent/extensions/borderless-editor.ts"
-  ],
+  "editorPaddingX": 1,
   "enabledModels": [
-    "google-antigravity/claude-opus-4-5-thinking",
-    "google-antigravity/gemini-3-flash",
-    "kimi-coding/k2p5",
+    "opencode/trinity-large-preview-free",
+    "opencode/big-pickle",
     "opencode/kimi-k2.5-free",
     "opencode/minimax-m2.1-free",
+    "google-antigravity/claude-opus-4-5-thinking",
+    "google-antigravity/gemini-3-flash",
+    "google-antigravity/gpt-oss-120b-medium",
+    "kimi-coding/k2p5",
     "zai/glm-4.7-flash",
     "zai/glm-4.7",
     "zai/glm-4.6v"
   ],
-  "defaultThinkingLevel": "medium",
-  "steeringMode": "one-at-a-time"
+  "extensions": [
+    "extensions/compact-ui.ts",
+    "extensions/exa-mcp.ts",
+    "extensions/webfetch.ts",
+    "extensions/browser-chromium",
+    "extensions/exa-search",
+    "extensions/gemini-search",
+    "extensions/plan-mode",
+    "extensions/subagent"
+  ],
+  "compaction": {
+    "enabled": true,
+    "reserveTokens": 16384,
+    "keepRecentTokens": 20000
+  },
+  "retry": {
+    "enabled": true,
+    "maxRetries": 3,
+    "baseDelayMs": 2000,
+    "maxDelayMs": 60000
+  }
 }
