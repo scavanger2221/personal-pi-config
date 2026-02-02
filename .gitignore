@@ -8,6 +8,9 @@ sessions/
 *.log
 pi-crash.log
 
+# Node modules (reinstall with npm install)
+node_modules/
+
 # OS files
 .DS_Store
 Thumbs.db
