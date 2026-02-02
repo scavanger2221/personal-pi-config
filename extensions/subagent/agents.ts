@@ -2,6 +2,14 @@
  * Agent discovery and configuration
  */
 
+import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+
+// Dummy extension export - actual extension is in index.ts
+export default function subagentAgents(_pi: ExtensionAPI): void {
+	// This file contains utility functions imported by index.ts
+	// Not a standalone extension
+}
+
 import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";

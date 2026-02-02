@@ -3,6 +3,14 @@
  * Extracted for testability.
  */
 
+import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+
+// Dummy extension export - actual extension is in index.ts
+export default function planModeUtils(_pi: ExtensionAPI): void {
+	// This file contains utility functions imported by index.ts
+	// Not a standalone extension
+}
+
 // Destructive commands blocked in plan mode
 const DESTRUCTIVE_PATTERNS = [
 	/\brm\b/i,
